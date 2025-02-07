@@ -1,8 +1,12 @@
+'''
+pip install chess tqdm
+'''
+
 import chess
 from contestants import white, black
 from tqdm import tqdm
 
-total_games = 1000
+total_games = 10000
 white_wins = 0
 black_wins = 0
 ties = 0
